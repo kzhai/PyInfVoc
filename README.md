@@ -1,7 +1,7 @@
 PyInfVoc
 ==========
 
-PyInfVoc is an Online Latent Dirichlet Allocation with Infinite Vocabulary topic modeling package based on Variational Bayesian learning approach under online settings, developed by the Cloud Computing Research Team in [University of Maryland, College Park] (http://www.umd.edu). You may find more details about this project on our papaer [Online Latent Dirichlet Allocation with Infinite Vocabulary] (http://kzhai.github.io/paper/2013_icml.pdf) appeared in ICML 2013.
+PyInfVoc is an Online Latent Dirichlet Allocation with Infinite Vocabulary topic modeling package based on Variational Bayesian learning approach under online settings, developed by the Cloud Computing Research Team in [University of Maryland, College Park] (http://www.umd.edu). You may find more details about this project on our paper [Online Latent Dirichlet Allocation with Infinite Vocabulary] (http://kzhai.github.io/paper/2013_icml.pdf) appeared in ICML 2013.
 
 Please download the latest version from our [GitHub repository](https://github.com/kzhai/PyInfVoc).
 
