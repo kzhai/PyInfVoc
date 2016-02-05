@@ -388,7 +388,7 @@ class Hybrid():
             new_index_to_nupos.append(dict());
             new_nupos_to_index.append(dict());
             for index in self._ranking_statistics[k].keys():
-                if len(new_index_to_nupos[k])>=min(self._index_to_nupos[k], self._expected_truncation_size):
+                if len(new_index_to_nupos[k])>=min(len(self._index_to_nupos[k]), self._expected_truncation_size):
                     break;
                 
                 #if index in words_to_keep and index in self._index_to_nupos[k].keys():

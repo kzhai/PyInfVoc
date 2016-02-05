@@ -29,11 +29,11 @@ To launch PyInfVoc, first redirect to the directory of PyInfVoc source code,
 
 and run the following command on example dataset,
 
-	python -m launch_train --input_directory=./de-news/ --output_directory=./ --truncation_level=4000 --number_of_topics=10 --number_of_documents=9800 --vocab_prune_interval=10 --batch_size=98 --alpha_beta=100
+	python -m launch_train --input_directory=./de-news/ --output_directory=./ --truncation_level=4000 --number_of_topics=10 --number_of_documents=9800 --training_iterations=100 --vocab_prune_interval=10 --batch_size=98 --alpha_beta=100
 	
 The generic argument to run PyLDA is
 
-	python -m launch_train --input_directory=$INPUT_DIRECTORY/$CORPUS_NAME --output_directory=$OUTPUT_DIRECTORY --number_of_topics=$NUMBER_OF_TOPICS --number_of_documents=$NUMBER_OF_DOCUMENTS --batch_size=$BATCH_SIZE
+	python -m launch_train --input_directory=$INPUT_DIRECTORY/$CORPUS_NAME --output_directory=$OUTPUT_DIRECTORY --number_of_topics=$NUMBER_OF_TOPICS --number_of_documents=$NUMBER_OF_DOCUMENTS --training_iterations=$TRAINING_ITERATIONS --batch_size=$BATCH_SIZE
 
 You should be able to find the output at directory ```$OUTPUT_DIRECTORY/$CORPUS_NAME```.
 
